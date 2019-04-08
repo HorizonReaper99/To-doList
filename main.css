@@ -1,0 +1,70 @@
+body{
+    background-color: #333333;
+}
+
+body,
+input{
+    font: 1em "Source Sans Pro" , sans-serif;
+    color: rgb(87, 87, 87);
+}
+
+a{
+    text-decoration: none;
+    border-bottom: 1px dashed #616161;
+}
+
+.list{
+    background-color: white;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: 3px 3px 0 rgb(0, 0, 0, .1);
+}
+
+.list .header{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0 0 10px 0;
+}
+
+.item{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.item li:hover .done-button{
+    opacity: 1;
+}
+
+.item .item-done{
+    text-decoration: line-through;
+}
+
+.item .li .items-add .input{
+    border: 0;
+    border-bottom: 1px dashed #cccccc;
+    padding: 15px 0;
+}
+
+input:focus{
+    outline: none;
+}
+
+.done-button{
+    display: inline-block;
+    font-size: .8em;
+    background-color: #d9dfe1;
+    padding: 3px 6px;
+    border: 0;
+    opacity: 0.4;
+}
+
+.submit{
+    background-color: white;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-top: 10px;
+}
